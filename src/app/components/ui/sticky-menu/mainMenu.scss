@@ -1,0 +1,53 @@
+@import url(../../../assets/ui/_variable.scss);
+.sticky-menu {
+  position: fixed;
+  top: 16px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  .container-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 99px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    ul {
+      list-style: none;
+      text-decoration: none;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      li {
+        font-weight: 600;
+        a {
+          display: flex;
+          align-items: center;
+          column-gap: 4px;
+          img {
+            display: none;
+          }
+          &.active {
+            background-color: var(--primary-color);
+            padding: 4px 12px;
+            border-radius: 99px;
+            img {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .btn-main-menu {
+      background: transparent;
+      color: #FFFFFF;
+      border-radius: 99px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      font-weight: 600;
+    }
+  }
+}

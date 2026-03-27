@@ -1,0 +1,21 @@
+@import url(./_variable.scss);
+
+.btn {
+  // Size
+  font-size: var(--size-md);
+  &.btn-sm {font-size: var(--size-sm);}
+  &.btn-lg {font-size: var(--size-lg);}
+
+  // Variant
+  &.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  &.btn-outline-primary {
+    background: transparent;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+
+  &.btn-pill {border-radius: 99px;}
+}

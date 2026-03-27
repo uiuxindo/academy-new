@@ -1,0 +1,25 @@
+@import url(./_variable.scss);
+
+/* Font Size */
+.text-xxs {font-size: var(--size-xxs);}
+.text-xs {font-size: var(--size-xs);}
+.text-sm {font-size: var(--size-sm);}
+.text-md {font-size: var(--size-md);}
+.text-lg {font-size: var(--size-lg);}
+.text-xlg {font-size: var(--size-xlg);}
+.text-xxlg {font-size: var(--size-xxlg);}
+.text-xxxlg {font-size: var(--size-xxxlg);}
+
+/* Font Weight */
+.fw200 {font-weight: 200;}
+.fw300 {font-weight: 300;}
+.fw400 {font-weight: 400;}
+.fw500 {font-weight: 500;}
+.fw600 {font-weight: 600;}
+.fw700 {font-weight: 700;}
+.fw800 {font-weight: 800;}
+.fw900 {font-weight: 900;}
+
+// Font Color
+.text-primary {color: var(--primary-color) !important;}
+.text-secondary {color: var(--secondary-color) !important;}

@@ -1,0 +1,13 @@
+.course-card {
+  overflow: hidden;
+  border: 0;
+  border-radius: 12px;
+  background-color: #151313f7;
+  .content {
+    color: #FFFFFF;
+    padding: 4px 12px 12px 12px;
+    span {
+      font-size: 12px;
+    }
+  }
+}

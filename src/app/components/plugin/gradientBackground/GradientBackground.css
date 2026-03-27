@@ -1,0 +1,36 @@
+.gradient-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.gradient-layer {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    120deg,
+    rgba(216, 79, 223, 0.15),
+    rgba(250, 213, 29, 0.15),
+    rgba(168, 85, 247, 0.12),
+    rgba(245, 230, 65, 0.1)
+  );
+
+  background-size: 200% 200%;
+  animation: gradientShift 5s ease infinite;
+
+  filter: blur(80px); /* 🔥 makes it soft & premium */
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
